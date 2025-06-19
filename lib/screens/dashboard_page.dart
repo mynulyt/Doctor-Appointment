@@ -1,7 +1,7 @@
 import 'package:doctor_appointment/screens/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'doctor_detail_page.dart';
-import 'widgets/bottom_nav_bar.dart';
+
 import 'widgets/doctor_card.dart';
 
 class DashboardPage extends StatefulWidget {

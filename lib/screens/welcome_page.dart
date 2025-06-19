@@ -22,22 +22,36 @@ class WelcomePage extends StatelessWidget {
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 48),
-              ElevatedButton(
-                onPressed:
-                    () => Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (_) => const LoginPage()),
-                    ),
-                child: const Text('Login'),
+              SizedBox(
+                width: 380, // set your desired width
+                height: 50, // set your desired height
+                child: ElevatedButton(
+                  onPressed:
+                      () => Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (_) => const LoginPage()),
+                      ),
+                  child: const Text(
+                    'Log In',
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                  ),
+                ),
               ),
-              const SizedBox(height: 12),
-              OutlinedButton(
-                onPressed:
-                    () => Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (_) => const SignUpPage()),
-                    ),
-                child: const Text('Sign Up'),
+              const SizedBox(height: 20),
+              SizedBox(
+                height: 50,
+                width: 380,
+                child: OutlinedButton(
+                  onPressed:
+                      () => Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (_) => const SignUpPage()),
+                      ),
+                  child: const Text(
+                    'Sign Up',
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                  ),
+                ),
               ),
             ],
           ),

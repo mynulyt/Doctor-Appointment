@@ -3,6 +3,7 @@ import 'package:intl/intl.dart';
 import '../theme/app_theme.dart';
 import 'widgets/profile_header.dart';
 import 'widgets/info_card.dart';
+//profile page
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});

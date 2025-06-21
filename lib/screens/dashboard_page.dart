@@ -62,7 +62,7 @@ class _DashboardPageState extends State<DashboardPage> {
                 ),
           ),
           DoctorCard(
-            name: 'Dr. Hasan Ahmed',
+            name: 'Dr. Mynul Alam',
             specialty: 'Dermatologist',
             onTap:
                 () => Navigator.push(
@@ -70,7 +70,7 @@ class _DashboardPageState extends State<DashboardPage> {
                   MaterialPageRoute(
                     builder:
                         (_) => DoctorDetailPage(
-                          name: 'Dr. Hasan Ahmed',
+                          name: 'Dr. Mynul Alam',
                           specialty: 'Dermatologist',
                           image: 'assets/doctor2.jpg',
                           description: 'Specialized in skin treatments...',

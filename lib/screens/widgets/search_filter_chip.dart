@@ -18,7 +18,7 @@ class SearchFilterChip extends StatelessWidget {
       label: Text(label),
       selected: selected,
       onSelected: (_) => onSelected(),
-      backgroundColor: Theme.of(context).colorScheme.surfaceVariant,
+      backgroundColor: Theme.of(context).colorScheme.surfaceContainerHighest,
       selectedColor: Theme.of(context).colorScheme.primary.withOpacity(0.2),
       labelStyle: TextStyle(
         color:

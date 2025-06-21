@@ -50,7 +50,7 @@ class DoctorCard extends StatelessWidget {
                   ],
                 ),
               ),
-              ElevatedButton(onPressed: onTap, child: const Text("Book")),
+              ElevatedButton(onPressed: onTap, child: const Text("Book Now")),
             ],
           ),
         ),

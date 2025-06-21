@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'booking_confirmation.dart';
+//booking details page
 
 class DoctorDetailPage extends StatelessWidget {
   final String name;

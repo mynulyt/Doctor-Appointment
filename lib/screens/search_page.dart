@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'doctor_detail_page.dart';
 import 'widgets/search_bar.dart';
 import 'widgets/search_filter_chip.dart';
+//search page
 
 class SearchPage extends StatefulWidget {
   const SearchPage({super.key});
